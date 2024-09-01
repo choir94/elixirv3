@@ -36,5 +36,6 @@ rm -r $HOME/elixir
 
 ### Dashboard: https://testnet-3.elixir.xyz/
 
-### Join Channel Telegram
+### Join Channel Telegram Airdrop Node
+--  https://t.me/airdrop_node
 
