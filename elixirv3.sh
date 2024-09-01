@@ -10,7 +10,7 @@ else
 fi
 
 # Logo
-sleep 1 && curl -s https://raw.githubusercontent.com/choir94/Airdropguide/main/logo.sh | bash && sleep 1
+sleep 1 && curl -s https://raw.githubusercontent.com/choir94/Airdropguide/main/logo.sh | bash && sleep 5
 
 # Choice Option
 PS3='Please enter your choice: '
