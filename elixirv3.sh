@@ -78,7 +78,6 @@ do
   read -p ' ^|^m Enter PRIVATE_KEY again: ' private_key_ev
 done
 
-
 # Create Dir
 mkdir "$HOME/ev"
 EV_DIR="$HOME/ev"
