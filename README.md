@@ -10,9 +10,9 @@
 | **NETWORK** |        100 Mbps           |
 
 
-## Automatic Install
+## Install Docker Pull
 ```
-cd $HOME && source <(curl -s https://raw.githubusercontent.com/choir94/elixirv3/main/elixirv3.sh)
+docker pull elixirprotocol/validator:v3
 ```
 ### Check log
 ```
