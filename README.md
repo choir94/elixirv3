@@ -14,27 +14,29 @@
 ```
 docker pull elixirprotocol/validator:v3
 ```
-### Check log
+### Create Directory
 ```
-sudo docker logs -f elixir
+mkdir /home/elixir
+cd /home/elixir
+nano validator.env
 ```
-### Upgrade
+### Edit File Env
 ```
-docker kill elixir
-docker rm elixir
-docker pull elixirprotocol/validator:v3
+ENV=testnet-3
+
+STRATEGY_EXECUTOR_IP_ADDRESS= Ip Vps
+STRATEGY_EXECUTOR_DISPLAY_NAME=  Nama validator
+STRATEGY_EXECUTOR_BENEFICIARY= Address validator
+SIGNER_PRIVATE_KEY= Privat key
 ```
 
-### Stop and Remove Node
+### Start Running
 ```
-sudo docker stop elixir
-sudo docker rm elixir
-rm -r $HOME/elixir
+docker run -d --env-file /home/elixir/validator.env --name elixir --restart unless-stopped elixirprotocol/validator:v3
 ```
 
 
-
-### Dashboard: https://testnet-3.elixir.xyz/
+### Pergi ke link testnet stake and delegate : https://testnet-3.elixir.xyz/
 
 ### Join Channel Telegram Airdrop Node
 --  https://t.me/airdrop_node
