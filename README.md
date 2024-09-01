@@ -12,7 +12,7 @@
 
 ## Automatic Install
 ```
-cd $HOME && source <(curl -s https://raw.githubusercontent.com/vnbnode/binaries/main/Projects/Elixir/elixirV3.sh)
+cd $HOME && source <(curl -s https://raw.githubusercontent.com/choir94/elixirv3/main/elixirv3.sh)
 ```
 ### Check log
 ```
