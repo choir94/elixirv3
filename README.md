@@ -36,8 +36,12 @@ docker run -d --env-file /home/elixir/validator.env --name elixir --restart unle
 ```
 
 
-### Pergi ke link testnet stake and delegate : https://testnet-3.elixir.xyz/
+### Link
+https://testnet-3.elixir.xyz/
 
 ### Join Channel Telegram Airdrop Node
 --  https://t.me/airdrop_node
+
+## support
+https://trakteer.id/AirdropNode/tip
 
